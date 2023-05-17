@@ -1,0 +1,19 @@
+{
+  "name": "jobextractor",
+  "version": "1.0.0",
+  "description": "Tool for extracting job information from a job description document",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CjL95/jobExtractor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CjL95/jobExtractor/issues"
+  },
+  "homepage": "https://github.com/CjL95/jobExtractor#readme"
+}
