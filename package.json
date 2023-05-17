@@ -2,10 +2,11 @@
   "name": "jobextractor",
   "version": "1.0.0",
   "description": "Tool for extracting job information from a job description document",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CjL95/jobExtractor.git"
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/CjL95/jobExtractor/issues"
   },
-  "homepage": "https://github.com/CjL95/jobExtractor#readme"
+  "homepage": "https://github.com/CjL95/jobExtractor#readme",
+  "dependencies": {
+    "@types/node": "^20.1.7",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.1"
+  }
 }
